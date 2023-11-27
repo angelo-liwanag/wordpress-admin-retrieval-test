@@ -32,8 +32,4 @@ ssh \
   -o UserKnownHostsFile=$work_dir/hostkeys \
   -i $work_dir/key \
   $username@$userhost \
-  chmod +x lightsail_connect \
-  ./lightsail_connect $instance \
   $@ 
-
-cat bitnami_application_password
