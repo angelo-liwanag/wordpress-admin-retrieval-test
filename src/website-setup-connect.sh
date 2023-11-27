@@ -34,5 +34,6 @@ ssh \
   $username@$userhost \
   chmod +x lightsail_connect \
   ./lightsail_connect $instance \
-  cat bitnami_application_password \
   $@ 
+
+cat bitnami_application_password
